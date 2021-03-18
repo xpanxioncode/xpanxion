@@ -7,6 +7,9 @@ public class Swap {
         System.out.println("B is "+b);
 
         //swaping..
+	int temp = a;
+	b = a;
+	a = temp;
 
 
         System.out.println("A is now "+ a);
