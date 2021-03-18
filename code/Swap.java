@@ -8,8 +8,8 @@ public class Swap {
 
         //swaping..
 	int temp = a;
-	b = a;
-	a = temp;
+	b = temp;
+	a = b;
 
 
         System.out.println("A is now "+ a);
